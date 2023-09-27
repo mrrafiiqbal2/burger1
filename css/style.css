@@ -1,0 +1,228 @@
+
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 14px;
+    line-height: 1.7em;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Alfa Slab One', cursive;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+img{
+	max-width: 100%;
+}
+/*header part css start*/
+.header{
+	width: 100%;
+	background: url("../images/bg1.jpg") center top no-repeat;
+	background-size: cover;
+	padding: 40px 0px;
+}
+.main-menu .logo{
+	margin: 15px 0px 0px;
+}
+.main-menu .text-right{
+	font-family: 'Montserrat', sans-serif;
+	text-align: right;
+	font-size: 14px;
+	font-weight: bold;
+	margin: 0px 20px 2px  0px;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 2px;
+	margin: 0px 0px 0px 20px;
+	color: #3d2514;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+	color: #bf2222;
+}
+/*header part css end*/
+
+/*bannner start*/
+.banner{
+	width: 100%;
+	padding: 40px 0px;
+}
+.inner-banner{
+	width: 100%;
+	margin: 38px 0px 0px;
+}
+.inner-banner h5{
+	  font-family: 'Bebas Neue', sans-serif;
+	  font-size: 24px;
+	  line-height: 1.2em;
+	  color: #3d2514;
+	  font-weight: 300;
+	  letter-spacing: 1px;
+}
+
+.inner-banner h5 span{
+	margin: 0px 0px 15px;
+	padding: 10px;
+	border: 2px solid dashed #3d2514;
+	display: inline-block;
+
+}
+.inner-banner h1{
+	font-size: 60px;
+	font-weight: bold;
+	line-height: 1.2em;
+	color: #3d2514;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	text-shadow: 5px 4px #fff;
+}
+.inner-banner h3{
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 1.2em;
+	color: #3d2514;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	
+}
+/*banner end*/
+
+/*feature part start*/
+.feature{
+	margin: 0px 0px 40px 0px;
+	padding: 0px 70px;
+}
+.feature .card{
+	margin: 0px 0px 5px;
+	border: 0px;
+}
+.feature .card h5{
+	margin: 20px 0px 0px;
+	color: white;
+	font-family: 'Bebas Neue', sans-serif;
+	font-size: 24px;
+	font-weight: 300;
+
+}
+.feature .card h2{
+	font-family: 'Bebas Neue', sans-serif;
+	font-size: 36px;
+	font-weight: 400;
+	line-height: 1.2em;
+	color: white;
+	letter-spacing: 1px;
+}
+/*feature end*/
+
+/*choose start*/
+
+.choose{
+	width: 100%;
+	padding: 20px 0px 80px;
+
+}
+.choose .title{
+	width: 100%;
+	padding: 0px 0px 40px;
+	text-align: center;
+}
+
+.choose .title h3{
+	font-family: 'Bebas Neue', sans-serif;
+	font-size: 24px;
+	font-weight: 300px;
+	line-height: 1.2em;
+	color: #3d2514;
+	letter-spacing: 1px;
+}
+.choose .title h3 span{
+	padding: 10px;
+	margin: 0px 0px 15px;
+	display: inline-block;
+	background: #ffc045;
+}
+.choose .title h2{
+	font-family: 'Bebas Neue', sans-serif;
+	font-size: 40px;
+	font-weight: 400;
+	line-height: 1.2em;
+	color: #3d2514;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+.choose .title p{
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: 400;
+	line-height: 1.7em;
+	color: red;
+}
+.choose-inner{
+
+	width: 100%;
+	padding: 20px;
+	text-align: center;
+}
+
+.choose-inner .img-fluid{
+	width: 100%;
+	margin: 0px 0px 10px;
+	height: 245px;
+	text-transform: uppercase;
+
+}
+
+.choose-inner  h4{
+	font-family: 'Bebas Neue', sans-serif;
+	font-size: 24px;
+	font-weight: 400;
+	letter-spacing: 1px;
+	line-height: 1.2em;
+	color: red;
+
+}
+.choose-inner p{
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: 400;
+	line-height: 1.7em;
+	color: black;
+}
+
+.choose-inner .btn-danger{
+	display: inline-block;
+	padding: 10px 40px;
+	font-size: 20px;
+	font-family: 'Alfa Slab One', cursive;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: 300;
+	border-radius: 0px;
+	border: 1px solid red;
+	color: #fff;
+	background: #bf2222;
+	transition: 1s;
+
+ 
+}
+.choose-inner .btn-danger:hover{
+	color: #bf2222;
+	background: #fff;
+}
+
+.choose-inner .btn-danger:focus{
+	color: white;
+	background: green;
+}
+/*choose end*/
+.footer{
+	background: #eee;
+}
